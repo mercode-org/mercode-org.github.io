@@ -1,0 +1,98 @@
+form {
+  max-width: 500px;
+  width: 85%;
+  position: relative;
+  padding: 30px 40px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  text-align: left;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+  font-family: "Raleway",sans-serif;
+  margin: 0 auto 50px;
+}
+#formbaslik {
+  font-size: 34px;
+  color: white;
+  transition: 0.2s;
+
+}
+.txtb{
+  border:2px solid white;
+  margin: 8px 0;
+  padding: 5px 18px;
+  border-radius: 8px;
+  transition: 0.2s;
+}
+.txtb label{
+  display: block;
+  text-align: left;
+  font-weight: bold;
+  color: white;
+  font-size: calc(0.5em + 0.3vw);
+  margin-bottom: 20px;
+  transition: 0.2s;
+}
+.txtb input,.txtb textarea{
+  width: 100%;
+  border: none;
+  color: white;
+  background: none;
+  outline: none;
+  font-size: calc(0.5em + 0.2vw);
+  display: block;
+  margin-top: 6px;
+  transition: 0.2s;
+}
+#formbaslik:hover {
+  font-size: calc(0.7em + 0.4vw); 
+  color: #ff4d0d;
+}
+.txtb:hover{
+  border: 2px solid #ff4d0d;
+  margin: 8px 0;
+  padding: 5px 18px;
+  border-radius: 8px;
+}
+.txtb label:hover{
+  display: block;
+  text-align: left;
+  font-weight: bold;
+  color: #ff4d0d;
+  font-size: calc(0.3em + 0.2vw);
+  margin-bottom: 20px;
+}
+.txtb input:hover,.txtb textarea:hover{
+  width: 100%;
+  border: none;
+  color: #ff4d0d;
+  font-size: bold;
+  background: none;
+  outline: none;
+  font-size: calc(0.8em + 0.5vw);
+  display: block;
+  margin-top: 6px;
+}
+::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+::-webkit-input-placeholder:hover {
+  color: rgba(0, 0, 0, 0.3);
+}
+.formbutton {
+  width: 100%;  
+  border:2px solid white;
+  background: none;
+  border-radius: 8px;
+  color: white;
+  font-size: calc(0.7em + 0.5vw);
+  font-family: "Raleway",sans-serif;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 5px;
+  transition: 0.2s;
+}
+.formbutton:hover {
+  border: 2px solid #ff4d0d;
+  background: #ff4d0d;
+  color: #56254b;
+}
