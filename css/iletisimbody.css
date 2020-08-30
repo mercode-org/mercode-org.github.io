@@ -1,6 +1,6 @@
 form {
-  max-width: 500px;
-  width: 85%;
+  width: 40vw;
+  height: auto;
   position: relative;
   padding: 30px 40px;
   box-sizing: border-box;
@@ -38,22 +38,22 @@ form {
   color: white;
   background: none;
   outline: none;
-  font-size: calc(0.5em + 0.2vw);
+  font-size: calc(0.5em + 0.5vw);
   display: block;
   margin-top: 6px;
   transition: 0.2s;
 }
 #formbaslik:hover {
-  font-size: calc(0.7em + 0.4vw); 
+  font-size: calc(0.7em + 0.5vw); 
   color: #ff4d0d;
 }
-.txtb:hover{
+.txtb:hover {
   border: 2px solid #ff4d0d;
   margin: 8px 0;
   padding: 5px 18px;
   border-radius: 8px;
 }
-.txtb label:hover{
+.txtb label:hover {
   display: block;
   text-align: left;
   font-weight: bold;
@@ -61,14 +61,14 @@ form {
   font-size: calc(0.3em + 0.2vw);
   margin-bottom: 20px;
 }
-.txtb input:hover,.txtb textarea:hover{
+.txtb input:hover, .txtb textarea:hover {
   width: 100%;
   border: none;
   color: #ff4d0d;
   font-size: bold;
   background: none;
   outline: none;
-  font-size: calc(0.8em + 0.5vw);
+  font-size: calc(0.8em + 0.8vw);
   display: block;
   margin-top: 6px;
 }
@@ -80,7 +80,7 @@ form {
 }
 .formbutton {
   width: 100%;  
-  border:2px solid white;
+  border: 2px solid white;
   background: none;
   border-radius: 8px;
   color: white;
