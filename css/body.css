@@ -138,10 +138,10 @@ a.button:hover {
 }
 
 .s1 {
-  max-width: 60%;
+  max-width: 70%;
   margin: auto;
-  padding-top: 20%;
-  padding-bottom: 20%;
+  padding-top: 15%;
+  padding-bottom: 15%;
   height: 120%; 
 }
 
@@ -254,6 +254,7 @@ a.button:hover {
 @media (max-width: 680px) {
   .s1 {
   max-width: 100%;
+  padding-top: 20%;
   margin: auto;
   } 
   .buttons3 {
