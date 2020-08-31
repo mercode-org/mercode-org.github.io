@@ -96,3 +96,9 @@ form {
   background: #ff4d0d;
   color: #56254b;
 }
+
+@media screen and (max-width: 800px) {
+    form {
+        width: 80vw;
+    }
+}
