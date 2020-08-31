@@ -38,6 +38,12 @@ html {
   flex: 1 0 12em;
 }
 
+.text {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 75%;
+}
+
 #mainpage {
   background: linear-gradient(45deg,rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url(../assets/synthwave.gif) no-repeat center center fixed;
   background-size: cover;
@@ -72,6 +78,12 @@ h1 {
   color: #fff;
   display: block;
   margin: 0 10px;
+}
+
+a.subtitle {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 75%;
 }
 
 #red {
