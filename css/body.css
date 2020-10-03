@@ -200,6 +200,12 @@ a.button:hover {
   padding: 1rem;
   background-color: #ff4d0d;
   text-align: center;
+  color: white;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
 }
 
 #left {
