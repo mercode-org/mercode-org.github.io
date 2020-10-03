@@ -1,42 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="150mm"
-   height="50mm"
-   viewBox="0 0 150 50"
-   version="1.1"
    id="svg8"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   sodipodi:docname="logo.svg">
+   version="1.1"
+   viewBox="0 0 298 58"
+   height="58mm"
+   width="298mm">
   <defs
      id="defs2" />
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="297.1974"
-     inkscape:cy="194.28571"
-     inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
-     showgrid="false"
-     inkscape:pagecheckerboard="true"
-     inkscape:window-width="1318"
-     inkscape:window-height="706"
-     inkscape:window-x="48"
-     inkscape:window-y="30"
-     inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -50,23 +25,44 @@
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(0,-247)">
+     transform="translate(0,-239)"
+     id="layer1">
     <flowRoot
-       xml:space="preserve"
-       id="flowRoot831"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffcc00;fill-opacity:1;stroke:none"
-       transform="matrix(0.27944143,0,0,0.27944143,-3.4324074,196.77423)"><flowRegion
-         id="flowRegion833"
-         style="fill:#ffcc00"><rect
-           id="rect835"
-           width="531.42859"
-           height="220"
-           x="20"
-           y="171.09111"
-           style="fill:#ffcc00" /></flowRegion><flowPara
-         id="flowPara837"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:192px;font-family:'Future Socialism';-inkscape-font-specification:'Future Socialism';fill:#ffcc00">SPM</flowPara></flowRoot>  </g>
+       transform="matrix(0.26458333,0,0,0.26458333,0,183)"
+       style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:133.33332825px;line-height:1.25;font-family:Raleway;-inkscape-font-specification:'Raleway Ultra-Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot18"
+       xml:space="preserve"><flowRegion
+         style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:133.33332825px;font-family:Raleway;-inkscape-font-specification:'Raleway Ultra-Bold'"
+         id="flowRegion20"><rect
+           style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:133.33332825px;font-family:Raleway;-inkscape-font-specification:'Raleway Ultra-Bold'"
+           y="179.43758"
+           x="0"
+           height="245.71428"
+           width="1117.1428"
+           id="rect22" /></flowRegion><flowPara
+         id="flowPara24" /></flowRoot>    <flowRoot
+       transform="matrix(0.26458333,0,0,0.26458333,0,183)"
+       style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:133.33332825px;line-height:1.25;font-family:Raleway;-inkscape-font-specification:'Raleway Ultra-Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot26"
+       xml:space="preserve"><flowRegion
+         style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:133.33332825px;font-family:Raleway;-inkscape-font-specification:'Raleway Ultra-Bold'"
+         id="flowRegion28"><rect
+           style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:133.33332825px;font-family:Raleway;-inkscape-font-specification:'Raleway Ultra-Bold'"
+           y="5.1518641"
+           x="2.8571429"
+           height="277.14285"
+           width="1128.5714"
+           id="rect30" /></flowRegion><flowPara
+         id="flowPara32" /></flowRoot>    <text
+       transform="scale(0.96694326,1.0341868)"
+       id="text36"
+       y="285.3251"
+       x="-4.9402375"
+       style="font-style:normal;font-weight:normal;font-size:22.08693695px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.55217344"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:73.6231308px;line-height:1;font-family:Raleway;-inkscape-font-specification:'Raleway Ultra-Bold';word-spacing:0px;fill:#ffffff;stroke-width:0.55217344"
+         y="285.3251"
+         x="-4.9402375"
+         id="tspan34">Mercode</tspan></text>
+  </g>
 </svg>

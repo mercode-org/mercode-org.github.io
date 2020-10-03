@@ -249,6 +249,10 @@ a.button:hover {
     flex: 100%;
     max-width: 100%;
   }
+  .s1, .s2, .s3, .s4, .s5, .s6, .s7 {
+    height: 100%;
+    padding: 50% 0;
+  }
 }
 
 @media (max-width: 680px) {
