@@ -10,68 +10,137 @@ $('nav').toggleClass('active')
 })
 })
 </script></head><header>
-<header>
 <div>
-<div class="logo"><a href="index.html"><img style="width: auto; height: 50px; padding-top: 6px;" src="assets/icon.svg" alt="**Mercode HTML Page**" /></a></div>
-<div class="logo animated fadeIn"><a href="index.html"><img style="width: auto; height: 25px; padding-top: 17px; margin-left: 12px;" src="assets/logo.svg" alt="" /></a></div>
+<div class="logo"><a href="index.html"><img src="assets/icon.svg"
+        style="width:auto;height:50px;padding-top:6px;" alt="**Mercode HTML Page**"></a></div>
+<div class="logo animated fadeIn"><a href="index.html"><img src="assets/logo.svg" style="width:auto;height:25px;padding-top:17px;margin-left: 12px;" alt=""></a></div>
 </div>
 <nav>
 <ul>
-<ul>
-<li><a href="#about"> About</a></li>
-<li><a href="#projects"> Projects</a></li>
-<li><a href="#join"> Join</a></li>
-<li><a href="#donate"> Donate</a></li>
-<li style="display: none;"><a href="portal.html">PARCEL BUGFIX</a></li>
-</ul>
-</ul>
+<li><a href="index.html#about"><i class="fa fa-user-o" aria-hidden="true"></i> About</a></li>
+<li><a href="index.html#projects"><i class="fa fa-code" aria-hidden="true"></i> Projects</a></li>
+<li><a href="index.html#join"><i class="fa fa-handshake-o" aria-hidden="true"></i> Join</a></li>
+<li><a href="#donate"><i class="fa fa-credit-card" aria-hidden="true"></i> Donate</a></li>
+<li style="display: none"><a href="portal.html">PARCEL BUGFIX</a></li>
 <div class="dropdown">
-<ul>
-<li><a class="dropbtn"> English </a></li>
-</ul>
-<div class="dropdown-content"><a href="https://ghcdn.rawgit.org/4yx/mercode-website/develop/index.html">English</a> <a href="tr/index.html">T&uuml;rk&ccedil;e</a></div>
+<li><a class="dropbtn"><i class="fa fa-globe" aria-hidden="true"></i> English <i class="fa fa-caret-down" aria-hidden="true"></i></a></li>
+<div class="dropdown-content">
+<a href="./index.html">English</a>
+<a href="tr/index.html">Türkçe</a>
 </div>
+</div>
+</ul>
 </nav>
-<div class="menu-toggle">&nbsp;</div>
-</header>
-<div class="container">
-<div id="mainpage" class="content">
+<div class="menu-toggle"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
+</header><body><div class="container">
+<div class="content" id="mainpage">
 <section class="s1">
-<div class="hos">Mercode:</div>
+<div class="hos">Mercode: <span class="ityped"></span></div>
 <a class="subtitle animated fadeInUp delay-1s">The Free/Libre Software community aimed to make apps for Web and GNU</a>
-<div class="buttons3"><a class="button animated fadeIn delay-1s" href="#about"> About</a> <a class="button animated fadeIn delay-1s" href="#join"> Join Us</a> <a class="button animated fadeIn delay-1s" href="http://cloud.mercode.org/index.php/login"> Login</a></div>
+<script type="text/javascript" src="./js/ityped.js"></script><script type="text/javascript">window.ityped.init(document.querySelector('.ityped'),{
+typeSpeed:  125,
+startDelay: 500,
+backDelay:  1200,
+cursorChar: ".",
+strings : ['Liberty','Privacy','Security', 'Solidarity']
+})</script>
+<div class="buttons3">
+<a href="#about" class="button animated fadeIn delay-1s"><i class="fa fa-info-circle" aria-hidden="true"></i> About</a>
+<a href="#join" class="button animated fadeIn delay-1s"><i class="fa fa-handshake-o" aria-hidden="true"></i> Join Us</a>
+<a href="http://cloud.mercode.org/index.php/login" class="button animated fadeIn delay-1s"><i class="fa fa-sign-in" aria-hidden="true"></i> Login</a>
+</div>
 </section>
 </div>
 </div>
-<section id="projects" class="s3">
+<section class="s3">
 <div class="container">
 <div class="content">
 <div class="text">
-<h1><span style="color: #ffffff;">BONA FIDE CODE OF CONDUCT</span></h1>
-<p><span style="color: #ffffff;">Version 2.1.0</span></p>
-<p><span style="color: #ffffff;">This community encourages contributions from anyone, regardless of any demographic characteristic and political views. We ask all contributors to make a conscious effort to communicate in ways that avoid practices that will predictably and unnecessarily risk putting some contributors off.</span></p>
-<h2><span style="color: #ffffff;">Guidelines</span></h2>
-<p><span style="color: #ffffff;">* Please assume all other participants are posting in good faith with the implicit purpose to help our community;</span><br /><span style="color: #ffffff;">* Call other participants by the names they use, and honor their preferences about their gender identity;</span><br /><span style="color: #ffffff;">* Don't make personal attacks against other participants. If you need to be critical, please underline that you are criticizing a statement, not a person;</span><br /><span style="color: #ffffff;">* Let's not raise politics other than software and web freedoms, and basic human rights;</span><br /><span style="color: #ffffff;">* Please abstain from contributing to vicious circles of escalating verbal aggression. A private response - politely stating your feelings as feelings and asking for peace - may calm things down;</span><br /><span style="color: #ffffff;">* Please be kind to other contributors when saying they made a mistake, as nobody is infallible;</span><br /><span style="color: #ffffff;">* Please respond only to what people actually said with objectivity and self-control;</span><br /><span style="color: #ffffff;">* Brief off-topic is acceptable, but please try to keep the overall discussion on-topic;</span><br /><span style="color: #ffffff;">* Rather than trying to have the last word, look for the times when there is no need to reply because your comment won&rsquo;t add any new useful information;</span><br /><span style="color: #ffffff;">* Internet is not be the best way to transmit emotions, so please don't hold a grudge against your peers.</span></p>
-<p><span style="color: #ffffff;">By making an effort to follow these guidelines, our discussions will be friendlier and reach conclusions more easily. The consequences for repeatedly violating these guidelines will be:</span></p>
-<p><span style="color: #ffffff;">1. A friendly warning;</span><br /><span style="color: #ffffff;">2. Temporary loss of the write access to our services (mute);</span><br /><span style="color: #ffffff;">3. Temporary loss of both read and write access to our services (ban).</span></p>
-<p><span style="color: #ffffff;">We don&rsquo;t like applying penalties and we believe people can change over time and then return to participate again with renewed politeness.</span></p>
-<p><span style="color: #ffffff;">Inspired by Richard Stallman's GNU Kind Communications Guidelines.</span></p>
-<p><em><span style="color: #ffffff;">\~ Lorenzo L. Ancora and Tan S. Akıncı - 05/25/20</span></em></p>
+<h1 class="head1">BONA FIDE CODE OF CONDUCT</h1>
+<a class="subtitle">
+Version 2.1.0
+<br><br>
+This community encourages contributions from anyone, regardless of any demographic characteristic and political views. We ask all contributors to make a conscious effort to communicate in ways that avoid practices that will predictably and unnecessarily risk putting some contributors off.
+<br><br>
+Guidelines
+<br><br>
+<ul>
+<li> Please assume all other participants are posting in good faith with the implicit purpose to help our community;</li><br>
+<li> Call other participants by the names they use, and honor their preferences about their gender identity;</li><br>
+<li> Don't make personal attacks against other participants. If you need to be critical, please underline that you are criticizing a statement, not a person;</li><br>
+<li> Let's not raise politics other than software and web freedoms, and basic human rights;</li><br>
+<li> Please abstain from contributing to vicious circles of escalating verbal aggression. A private response - politely stating your feelings as feelings and asking for peace - may calm things down;</li><br>
+<li> Please be kind to other contributors when saying they made a mistake, as nobody is infallible;</li><br>
+<li> Please respond only to what people actually said with objectivity and self-control;</li><br>
+<li> Brief off-topic is acceptable, but please try to keep the overall discussion on-topic;</li><br>
+<li> Rather than trying to have the last word, look for the times when there is no need to reply because your comment won’t add any new useful information;</li><br>
+<li> Internet is not be the best way to transmit emotions, so please don't hold a grudge against your peers.</li>
+</ul>
+<br><br>
+By making an effort to follow these guidelines, our discussions will be friendlier and reach conclusions more easily. The consequences for repeatedly violating these guidelines will be:
+<br><br>
+1. A friendly warning;<br>
+2. Temporary loss of the write access to our services (mute);<br>
+3. Temporary loss of both read and write access to our services (ban).
+<br><br>
+We don’t like applying penalties and we believe people can change over time and then return to participate again with renewed politeness.
+<br><br>
+Inspired by Richard Stallman's GNU Kind Communications Guidelines.
+<br><br>
+<i>\~ Lorenzo L. Ancora and Tan S. Akıncı - 05/25/20</i><br><br>
+</a>
 </div>
 </div>
 </div>
 </section>
-<div class="footer"><a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> &bull; 2021 Mercode</div>
-<div id="donate" class="overlay">
-<div class="popup">
+<section class="s6" id="join">
+<div class="container">
+<div class="content">
+<h1 class="head1">Join Now!</h1>
+<a class="subtitle"> You can enter the Mercode community by joining its communication channels and contributing to its projects. You can also use this form to join the council and benefit from Mercode's public services.
+<br> <br>
+<form method="POST" action="https://formspree.io/tansiretakinci@yandex.com" form_signature="5750884074886450382">
+    <div class="txtb">
+      <label><span>Name</span>
+        <input required="" type="text" name="name" placeholder="Write your name (required)" field_signature="3489289364" form_signature="5750884074886450382"></label>
+    </div>
+
+    <div class="txtb">
+      <label><span>E-mail</span>
+        <input required="" type="email" name="replyto" placeholder="Write your e-mail (required)" field_signature="374330429" form_signature="5750884074886450382"></label>
+    </div>
+
+    <div class="txtb">
+      <label><span>Phone</span>
+        <input required="" type="number" name="phone" placeholder="Write your phone number (required)" field_signature="466116101" form_signature="5750884074886450382"></label>
+    </div>
+
+    <div class="txtb">
+      <label><span>Profession</span>
+        <input required="" type="text" name="name" placeholder="Describe your current profession (required)" field_signature="3489289364" form_signature="5750884074886450382"></label>
+    </div>
+
+    <div class="txtb">
+      <label><span>CV</span>
+        <textarea name="message" placeholder="Let's talk about 𝘺𝘰𝘶." field_signature="4239419590" form_signature="5750884074886450382"></textarea></label>
+    </div>
+    <button class="formbutton" type="submit"><i class="fa fa-handshake-o" aria-hidden="true"></i>  Join Now!</button>
+</form>
+</a></div></div></section>
+<div class="footer"><a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> • 2021 Mercode</div>
+
+<div id="donate" class="overlay"><div class="popup">
 <h2>Donate to Mercode</h2>
 <a class="close" href="#">&times;</a>
-<div class="content">
-<div class="minikalan1"><img class="svgdonation" src="assets/donation.svg" alt="Make Donations to Mercode!" /></div>
-<div class="paragiraf1">If you would like to see this team contributing more to the community, you can donate to us on Patreon or send Etherium to our wallet to help us pay our server bills or to order us a coffee (because we really need it after long hours of coding).</div>
+<div class="content"><div class="minikalan1">
+<img class="svgdonation" src="assets/donation.svg" alt="Make Donations to Mercode!"/>
+</div>
+<div class="paragiraf1">If you would like to see this team contributing more to the community, you can donate to us on Patreon or send Etherium to our wallet to help us pay our server bills or to order us a coffee (because we really need it after long hours of coding).
+</div>
 <div class="butonalani">
-  <a class="button" href="https://www.patreon.com/mercode"> Patreon</a> 
-  <a class="button"> ETH</a> <input id="myInput" class="kripto" type="text" value="0xf65C6EE66b6f831Ac212A86C2c3502FC285C978E" />
+<a href="https://www.patreon.com/mercode" class="button"><i class="fa fa-money" aria-hidden="true"></i>  Patreon</a>
+<a onclick="copyClipboard()" class="button"><i class="fa fa-files-o" aria-hidden="true"></i>  ETH</a>
+<input class="kripto" type="text" value="0xf65C6EE66b6f831Ac212A86C2c3502FC285C978E" id="myInput">
 </div>
 </div>
 </div>
